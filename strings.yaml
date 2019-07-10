@@ -1,24 +1,23 @@
 branding:
-  name: About Library 
-  org: The New York Times
-  orgDomain: nytimes.com
-  prettyName: About Library
+  name: SRCCON 2019
+  org: The SRCCON Community
+  orgDomain: opennews.org
+  prettyName: SRCCON 2019 Library
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: A simple documentation site, built from content in Google Docs.
+  tagline: A place to collect tips, notes, and ideas from SRCCON 2019.
   viewAll: View All Docs
   quickLink: <a href="/get-started">Get started</a>.
 
 footer:
-  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
-  defaultEmail: test.user@nytimes.com
+  helpText: For help contributing or to report a problem, contact us in the \#srccon channel of the News Nerdery Slack.
 
 search:
-  placeholder: What do you want to know about Library?
+  placeholder: Search for something about SRCCON.
   results:
     none:
-      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+      suggestion: To make a new page, add a document to the SRCCON 2019 shared folder after joining the Google Group. Remember, docs must adhere to the 2019 SRCCON code of conduct.
 
 # errors
 error:

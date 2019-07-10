@@ -1,21 +1,19 @@
 {
-  "name": "library-customization-example",
+  "name": "srccon-library",
   "version": "1.0.0",
-  "description": "Sample customizations for your Library instance",
+  "description": "A Library site for SRCCON 2019",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nytimes/library-customization-example.git"
+    "url": "git+https://github.com/isaacwhite/srccon-library.git"
   },
-  "author": "The New York Times",
+  "author": "Isaac White",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nytimes/library-customization-example/issues"
+    "url": "https://github.com/isaacwhite/srccon-library/issues"
   },
-  "homepage": "https://github.com/nytimes/library-customization-example#readme",
   "dependencies": {
-    "cache-manager-ioredis": "^1.0.1",
     "express-sslify": "^1.2.0"
   }
 }

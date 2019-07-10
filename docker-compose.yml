@@ -11,5 +11,3 @@ services:
     command: sh custom/compose_run
     volumes:
       - .:/usr/src/app/custom
-  redis:
-    image: "redis:alpine"
