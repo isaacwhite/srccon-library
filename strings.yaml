@@ -9,9 +9,16 @@ landing:
   tagline: A place to collect tips, notes, and ideas from SRCCON 2019.
   viewAll: View All Docs
   quickLink: <a href="/get-started">Get started</a>.
+  modules:
+    - tag: category
+      label: Find by category
+      style: button
+    - tag: featured
+      label: Useful Docs
+      style: docs
 
 footer:
-  helpText: For help contributing or to report a problem, contact us in the \#srccon channel of the News Nerdery Slack.
+  helpText: "For help contributing or to report a problem, contact us in the <a href=\"https://newsnerdery.slack.com/messages/C052BA5MV/\">#srccon</a> channel of the News Nerdery Slack."
 
 search:
   placeholder: Search for something about SRCCON.

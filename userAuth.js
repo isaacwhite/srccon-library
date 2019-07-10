@@ -6,10 +6,8 @@ const md5 = require('md5')
 const GoogleStrategy = require('passport-google-oauth20')
 
 const log = require('../server/logger')
-const { stringTemplate: template } = require('../server/utils')
 
 const router = require('express-promise-router')()
-const domains = new Set(process.env.APPROVED_DOMAINS.split(/,\s?/g))
 
 passport.use(new GoogleStrategy.Strategy({
   clientID: process.env.GOOGLE_CLIENT_ID,
